@@ -1,0 +1,24 @@
+body {
+	font-family: sans-serif;
+	background: #eaeaea;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+.content {
+	background: #fff;
+	max-width: 40em;
+	margin: auto;
+	margin-top: 5em;
+	padding: 2em;
+	border: black solid 1px;
+}
+
+input {
+	margin-bottom: 2em;
+}
+input[type="Submit"] {
+	display: none;
+}

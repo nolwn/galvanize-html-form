@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<title>Galvanize Assessment, HTML Form</title>
+</head>
+<body>
+	<div class="content">
+		<h1>Enter your most precious information</h1>
+		<p>You&apos;ll never believe the glorious results you can achieve by filling
+			 out this delightful looking form. Don&apos;t hesitate, send us your more
+			 precious personal details today!</p>
+		<form class="galvanize" action="index.html" method="post">
+			<fieldset>
+
+				<label for="email">Email</label>
+				<input type="email" name="email" placeholder="We promise nothing!"
+				value="">
+				<br>
+
+				<label for="password">Password</label>
+				<input type="password" name="password"
+				placeholder="You know you want to." value="">
+				<br>
+
+				<label for="github-account">GitHub Account</label>
+				<input type="text" name="github-account"
+				placeholder="Don&apos;t ask why." value="">
+
+				<input type="radio" name="account" value="Enterprise"> Enterprise
+				<input type="radio" name="account" value="Pro"> Pro
+				<input type="radio" name="account" value="Free"> Free
+				<br>
+
+				<input type="checkbox" name="remember-me" value="true">
+				<label for="remember-me">Remember me</label>
+				<br>
+
+				<button type="submit" name="submit">Submit</button>
+			</fieldset>
+		</form>
+	</div>
+</body>
