@@ -7,7 +7,7 @@ h1 {
 	text-transform: uppercase;
 	text-align: center;
 }
-.content {
+#content {
 	background: #fff;
 	max-width: 40em;
 	margin: auto;
@@ -21,4 +21,8 @@ input {
 }
 input[type="Submit"] {
 	display: none;
+}
+
+.green {
+	border: green solid 3px;
 }
